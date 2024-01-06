@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>revisiting rock paper scissors</title>
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <div class="container">
+      <div class="box-1">
+        <div class="box-3">
+          <div class="score">
+            <div class="playerscore">PLAYERSCORE<span class="playscore">0</span></div>
+            <div class="computerscore">COMPUTERSCORE<span class="cmpscore">0</span></div>
+            <div class="playerchoice"></div>
+          </div>
+        </div>
+        <div class="box-4">
+          <div id="result">RESULT:</div>
+        </div>
+      </div>
+      <div class="computerchoice"></div>
+
+      <div class="buttonchoices">
+        <div class="box-8">
+          <div class="box-5">
+            <button class="buttonchoice1 btnchoice" id="rock" >
+              <img src="./icon-rock.svg"  />
+            </button>
+          </div>
+          <div class="box-6">
+            <button class="buttonchoice2 btnchoice"  id="paper"  >
+              <img src="./icon-paper.svg"  />
+            </button>
+          </div>
+        </div>
+        <div class="box-7">
+          <button class="buttonchoice3 btnchoice"  id="scissors" >
+            <img src="./icon-scissors.svg" />
+          </button>
+        </div>
+      </div>
+      <script src="./main.js"></script>
+    </div>
+  </body>
+</html>

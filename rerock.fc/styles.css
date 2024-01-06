@@ -1,0 +1,99 @@
+.container {
+  display: flex;
+background-color: #1f3756;
+height: 450px;
+flex-direction: column;
+}
+.box-1 {
+  height: 70px;
+  display: flex;
+  font-style: italic;
+  justify-content: space-between;
+  width: 60%;
+  border: 1px solid white;
+  align-self: center;
+  font-weight: 600;
+}
+.box-3 {
+  display: flex;
+  font-style: italic;
+  align-self: center;
+  color: bisque;
+}
+
+
+.box-4 {
+  display: flex;
+  align-items: center;
+  color: bisque;
+}
+.buttonchoices {
+  background-image: url(./bg-triangle.svg);
+  background-repeat: no-repeat;
+display: flex;
+  height: 430px;
+  justify-content: space-around;
+width: 100%;   
+align-self: center;
+       align-items: center;   
+       flex-wrap: wrap;             
+       background-position: center;             
+} 
+.box-8 {
+  display: flex;
+  width: 100%;
+justify-content: center;
+margin-bottom: 15px;
+margin-top: 12px;
+}
+.box-5 {
+  display: flex;
+  margin-right: 60px;
+border:  hsl(349, 71%, 52%) to hsl(349, 70%, 56%);
+border-radius: 50%;
+height: fit-content;
+width: 100px;
+}
+.box-6 {
+  display: flex;
+}
+.box-7 {
+  display: flex;
+  color: aqua;
+  margin-bottom: 60px;
+}
+.buttonchoice1 {
+  display: flex;
+  background-color:  white;
+  border-radius: 50%;
+  height: 80px;
+  width: 100px;
+  align-items: center;
+  margin-right: 18px;
+  justify-content: center;
+  border : 8px solid hsl(349, 71%, 52%); 
+
+}
+.buttonchoice2 {
+  display: flex;
+  background-color:  white;
+  border-radius: 50%;
+  height: 80px;
+  width: 100px;
+  margin-left: 65px;
+  justify-content: center;
+  border: 9px solid hsl(230, 89%, 62%);
+}
+.buttonchoice3 {
+  display: flex;
+  background-color:  white;
+  border-radius: 50%;
+  height: 80px;
+  width: 100px;
+  margin-right: 8px;
+  justify-content: center;
+   border: 9px solid  hsl(39, 89%, 49%);
+   margin-top: 125px;
+   
+}
+
